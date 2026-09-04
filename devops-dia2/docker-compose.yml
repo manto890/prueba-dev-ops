@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-compose
+    ports:
+      - "8082:80"
+    volumes:
+      - ./nginx:/usr/share/nginx/html
