@@ -786,38 +786,7 @@ IP privada: 10.0.1.4
 Acceso: SSH
 ```
 
----
-
-# 28. DIFERENCIA ENTRE LAS DOS MV'S
-
-Durante este laboratorio quedaron dos máquinas virtuales independientes.
-
-### VM EXISTENTE
-
-```text
-vm-cloud-lab
-```
-
-* Creada manualmente desde Azure Portal
-* Usuario: `mantonio`
-* No forma parte de la infraestructura Terraform del laboratorio
-* Se mantuvo intacta
-
-### VM TERRAFORM
-
-```text
-vm-terraform-lab
-```
-
-* Creada mediante Terraform
-* Usuario: `azureuser`
-* Ubuntu 22.04
-* Gestionada mediante Terraform
-* Conectada mediante SSH
-
----
-
-# 29. CONCEPTOS APRENDIDOS
+# 28. CONCEPTOS APRENDIDOS
 
 Durante el Día 5 aprendí:
 
@@ -854,7 +823,7 @@ Durante el Día 5 aprendí:
 
 ---
 
-# 30. INFRAESTRUCTURE AS A CODE
+# 29. INFRAESTRUCTURE AS A CODE
 
 Antes:
 
@@ -893,7 +862,7 @@ Esto permite:
 
 ---
 
-# 31. FLUJO DE TRABAJO APRENDIDO
+# 30. FLUJO DE TRABAJO APRENDIDO
 
 El flujo que debo seguir normalmente es:
 
@@ -921,7 +890,7 @@ Este flujo será especialmente importante en futuros proyectos de Cloud/DevOps.
 
 ---
 
-# 32. RESULTADO FINAL
+# 31. RESULTADO FINAL
 
 El laboratorio terminó correctamente.
 
