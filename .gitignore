@@ -3,3 +3,7 @@
 *.tfstate
 *.tfstate.*
 terraform.tfvars
+# Python
+devops-dia6/app/.venv/
+devops-dia6/app/__pycache__/
+devops-dia6/app/.pytest_cache/
